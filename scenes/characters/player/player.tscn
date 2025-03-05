@@ -7,8 +7,13 @@
 [ext_resource type="Script" uid="uid://vr3rhvmeaawc" path="res://scenes/characters/player/idle_state.gd" id="4_o1v0q"]
 [ext_resource type="Script" uid="uid://cayuwjf8ik0s8" path="res://scenes/characters/player/walk_state.gd" id="5_xfk3v"]
 [ext_resource type="Script" uid="uid://ugo2f753ghft" path="res://scenes/characters/player/chopping_state.gd" id="7_mk55u"]
+<<<<<<< HEAD
 [ext_resource type="Script" path="res://scenes/characters/player/tilling_state.gd" id="8_xuses"]
 [ext_resource type="Script" path="res://scenes/characters/player/watering_state.gd" id="9_42irl"]
+=======
+[ext_resource type="Script" uid="uid://bxqebboi4d4bk" path="res://scenes/characters/player/tilling_state.gd" id="8_xuses"]
+[ext_resource type="Script" uid="uid://c5h0vqnsuif1i" path="res://scenes/characters/player/watering_state.gd" id="9_42irl"]
+>>>>>>> origin/main
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0bkba"]
 atlas = ExtResource("1_eklpd")
@@ -404,7 +409,11 @@ current_tool = 2
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -8)
 sprite_frames = SubResource("SpriteFrames_falcd")
+<<<<<<< HEAD
 animation = &"watering_right"
+=======
+animation = &"watering_back"
+>>>>>>> origin/main
 autoplay = "idle_front"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
